@@ -1,0 +1,39 @@
+*{
+    margin : 20;
+    padding : 0;
+    
+}
+
+main{
+    text-align: center;
+    margin: auto;
+    padding: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black;
+    max-width: 500px;
+    align-items: center;
+}
+
+.my-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    margin: 0;
+}
+
+h1{
+    text-align:center;
+    padding: 5px;
+    max-width: min-content;
+    justify-content:flex-start;
+}
+
+.contraseña label {
+    margin-right: 2px;
+    max-height: 1px;
+    justify-content:flex-start;
+}
+
