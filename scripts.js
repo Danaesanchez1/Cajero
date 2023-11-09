@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let cuentaSeleccionada = null;
 
-    // Obtener elementos del DOM
     const selectCuenta = document.querySelector('.cuenta');
     const inputPassword = document.getElementById('password');
     const botonIngresar = document.getElementById('botonIngresar');
@@ -17,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const retirarBtn = document.getElementById('retirar');
     const resultado = document.getElementById('resultado');
 
-    // Llenar select con las opciones de cuentas
+    
     cuentas.forEach((cuenta, index) => {
         const option = document.createElement('option');
         option.value = index;
