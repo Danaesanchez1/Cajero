@@ -36,4 +36,10 @@ h1{
     max-height: 1px;
     justify-content:flex-start;
 }
+h2{
+   text-align: center;
+   margin: 100px;
+   padding: 20px;
+}
+
 
